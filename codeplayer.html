@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <title>Code Player</title>
+	<link rel="shortcut icon" href="images/weblogo.ico" />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="codeplayer.css" />
+
+	</head>
+		<body>
+			<div id="container">
+				<div id="menu-bar"><!---top menu for selecting html/css/js/output--->
+					<div id="logo">Code Player</div>
+					<div id="button">
+					<button id="runButton">RUN</button>
+					</div>
+					<ul id="toggles">
+						<li class="toggle selected">HTML</li>
+						<li class="toggle">CSS</li>
+						<li class="toggle">JS</li>
+						<li class="toggle selected" style="border:none">OUTPUT</li>
+					</ul>
+				</div>
+<div class="clear"></div><!--to clear the float left and float right elements in css--->
+<div class="codeContainer" id="HTMLContainer"><!--Html typein area---> 
+<div class="codeLabel">HTML</div>
+<textarea id="HTMLCode" placeholder="Typein your code"> </textarea>
+</div>
+<div class="codeContainer" id="CSSContainer"><!--csss typein area--->
+<div class="codeLabel">CSS</div>
+<textarea id="CSSCode" placeholder="Typein your code"> </textarea>
+</div>
+<div class="codeContainer" id="JSContainer"><!--javascript typein area--->
+<div class="codeLabel">JS</div>
+<textarea id="JSCode" placeholder="Type in your code"> </textarea>
+</div>
+<div class="codeContainer" id="OUTPUTContainer"><!--result area--->
+<div class="codeLabel">OUTPUT</div>
+<iframe id="result"></iframe>
+</div>
+</div>
+<script type="text/javascript" src="codeplayer.js"></script>
+</body>
+
+
+</html>

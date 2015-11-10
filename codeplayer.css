@@ -1,0 +1,100 @@
+body, html{
+margin:0;
+padding:0;
+}
+#menu-bar{
+width:100%;
+height:50px;
+background: -webkit-linear-gradient(left, #002247 , #024d9e); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, #002247, #024d9e); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, #002247, #024d9e); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, #002247, #024d9e); /* Standard syntax */
+box-shadow: 0px 10px 5px #ccc;
+}
+#logo{
+font-family: Tw Cen MT;
+color:#fff;
+font-size:1.1em;
+font-weight:bold;
+padding:12px 0 0 20px;
+text-shadow: 5px 5px 5px #000;
+text-transform:uppercase;
+float:left;
+}
+#button{
+float:right;
+text-transform:uppercase;
+margin: 12px 20px 0 0;
+
+}
+#runButton{
+font-family: Tw Cen MT;
+padding: 2px 10px;
+border-radius:5px;
+color:#000;
+font-weight:bold;
+background: -webkit-linear-gradient(left, #E8E8E8 , #ADADAD); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, #E8E8E8, #ADADAD); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, #E8E8E8, #ADADAD); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, #E8E8E8, #ADADAD); /* Standard syntax */
+}
+#toggles{
+line-height:30px;
+width:217px;
+margin:0 auto;
+list-style:none;
+outline: solid 1px #fff;
+padding:0;
+position:relative;
+top:10px;
+}
+#toggles li{
+padding-right:10px;
+padding-left:10px;
+font-family:Tw Cen MT;
+color:#fff;
+border-right:1px solid #fff;
+float:left;
+}
+
+#button:hover{
+box-shadow: 5px 5px 5px #000;
+}
+.clear{
+clear:both;
+}
+.codeContainer{
+width:50%;
+height:100%;
+float:left;
+position:relative;
+}
+.codeContainer textarea{
+width:100%;
+height:100%;
+font-family:monotype;
+padding:5px;
+}
+.codeLabel{
+font-family:Tw Cen MT;
+font-weight:bold;
+position:absolute;
+right:10px;
+top:10px;
+}
+
+iframe{
+width:100%;
+height:100%;
+padding:5px;
+position:relative;
+left:11px;
+}
+#CSSContainer, #JSContainer{
+display:none;
+}
+.selected{
+background-color:#666;
+font-weight:bold;
+text-shadow: 5px 5px 5px #000;
+}
